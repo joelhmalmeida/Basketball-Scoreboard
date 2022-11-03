@@ -1,0 +1,25 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3 id="home-score">HOME</h3>
+                <h2 id="count-el">0</h2>
+                <button id="one-point" onclick="addOnePoint()">+1</button>
+                <button id="two-points" onclick="addTwoPoints()">+2</button>
+                <button id="three-points" onclick="addThreePoints()">+3</button>
+            </div>
+            <div>
+                <h3 id="away-score">GUEST</h3>
+                <h2 id="counttwo-el">0</h2>
+                <button id="one-point" onclick="addOnePointAway()">+1</button>
+                <button id="two-points" onclick="addTwoPointsAway()">+2</button>
+                <button id="three-points" onclick="addThreePointsAway()">+3</button>
+            </div>
+        </div>
+        <button id="new-game" onclick="resetCounter()">New Game</button>
+        <script src="index.js"></script>
+    </body>
+</html>

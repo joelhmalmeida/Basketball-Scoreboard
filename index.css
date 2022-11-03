@@ -1,0 +1,82 @@
+@font-face{
+    src: url("CursedTimerUlil-Aznm.ttf");
+    font-family: CursedTimerUlil-Aznm;
+}
+
+body {
+    margin: 0;
+    background-color: #1B244A;
+    text-align: center;
+    color: white;
+    font-family: CursedTimerUlil-Aznm;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 30px;
+}
+
+#count-el{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #0a0001;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 120px;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 7px; 
+}
+
+#counttwo-el{
+    display: flex;
+    justify-content: space-around;
+    background: #0a0001;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 120px;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 7px;
+}
+#one-point{
+    border-radius: 5px;
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    background-color: #1B244A;
+    color: #9AABD8;
+}
+#two-points{
+    border-radius: 5px;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    background-color: #1B244A;
+    color: #9AABD8;
+}
+#three-points{
+    border-radius: 5px;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    background-color: #1B244A;
+    color: #9AABD8;
+}
+#new-game{
+    border-radius: 5px;
+    width: 120px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 30px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    background-color: #1B244A;
+    color: #9AABD8;
+}
